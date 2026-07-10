@@ -44,7 +44,7 @@ test("Create Post request using static body", async({ request }) => {
 
     //validate booking details
     const booking=responseBody.booking;
-    d
+    
 
 
     expect(booking).toMatchObject({

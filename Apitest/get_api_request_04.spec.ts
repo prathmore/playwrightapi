@@ -18,7 +18,7 @@ test('Get booking details by Id- path param', async ({ request }) => {
 })
 
 
-test.only('Get booking details by Name- query params', async ({ request }) => {
+test('Get booking details by Name- query params', async ({ request }) => {
 
     const firstname = "Jim";
     const lastname = "Brown";

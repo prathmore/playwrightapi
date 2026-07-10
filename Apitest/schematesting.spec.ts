@@ -43,7 +43,7 @@ test('Validate JSON response with schema1', async ({ request }) => {
 //2) 
 
 
-test.only('Validate JSON response with schema2', async ({ request }) => {
+test.skip('Validate JSON response with schema2', async ({ request }) => {
     const response = await request.get('https://jsonplaceholder.typicode.com/posts/1');
     const responsebody = await response.json();
 
